@@ -1,0 +1,61 @@
+.content {
+    max-width: 950px;
+    margin: 140px auto 0;
+}
+.content .content-wrap {
+    position: relative;
+}
+.content .content-wrap {}
+img {
+    width: 100%;
+}
+.btn-next,
+.btn-prev {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    z-index: 9;
+}
+.btn-next {
+    right: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-prev {
+    left: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-next img,
+.btn-prev img {
+    display: block;
+    width: 9px;
+    height: 13px;
+}
+
+.content .content-wrap .title {
+    position: absolute;
+    z-index: 1;
+    top: 73%;
+    right: -110px;
+}
+
+.content .content-wrap .title p {
+    font-size: 30px;
+    color: #fff;
+}
+
+.mySwiper {
+    /* height: 20%; */
+    box-sizing: border-box;
+    padding: 10px 0;
+  }
