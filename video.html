@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>s t o r a g e</title>
+    <!-- swiper slider css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <!-- common css -->
+    <link rel="stylesheet" href="css/common.css">
+    <!-- css -->
+    <link rel="stylesheet" href="css/video.css">
+    <!-- JQUERY -->
+    <script defer src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- js -->
+    <script defer src="js/video.js"></script>
+    <!-- adobe font -->
+    <link rel="stylesheet" href="https://use.typekit.net/eij7uby.css">
+</head>
+<body>
+    <div class="wrap">
+        <!-- header -->
+        <header>
+            <div class="container">
+                <h1 class="logo"><a href="index.html">storage</a></h1>
+                <form class="nav">
+                    <label><input type="radio" name="band" OnClick="window.location.href='index.html?value=1';"><span>home</span></label>
+                    <label><input type="radio" name="band" OnClick="window.location.href='photo.html?value=2';"><span>photo</span></label>
+                    <label><input type="radio" name="band" OnClick="window.location.href='video.html?value=3';" checked><span>video</span></label>
+                    <label><input type="radio" name="band" OnClick="window.location.href='about.html?value=4';"><span>about</span></label>
+                </form>
+            </div>
+        </header>
+        <!-- main -->
+        <div class="content">
+            <div class="swiper sw-tabslider">
+              <ul class="list swiper-wrapper">
+                <li class="swiper-slide" data-video="s59xkc-1DAA">
+                  <img src="images/무빙포스터1.gif" alt="" data-animated="images/무빙포스터1.gif" data-static="images/무빙포스터1.gif">
+                </li>
+                <li class="swiper-slide" data-video="4C4n_eeBtxQ">
+                  <img src="images/무빙포스터2.gif" alt="" data-animated="images/무빙포스터2.gif" data-static="images/무빙포스터2.gif">
+                </li>
+                <li class="swiper-slide" data-video="9pK7b9g9x7w">
+                  <img src="images/공모전.gif" alt="" data-animated="images/공모전.gif" data-static="images/공모전.gif">
+                </li>
+              </ul>
+            </div>
+            <div class="btn-next">
+              <img src="images/arrowR.png" alt="">
+            </div>
+          <div class="btn-prev">
+              <img src="images/arrowL.png" alt="">
+          </div>    
+        </div>
+          <!-- 모달창 -->
+          <div class="modal">
+            <span class="dim"></span>
+          </div>
+        <!-- footer -->
+        <footer>
+            <p>CopyrightⓒJeongminSon All rights reserved.</p>
+            <div class="contact">
+              <div class="img_wrap">
+                  <a href="https://youtube.com/@sonnjeongmin?feature=shared"><img src="images/유튜브.png" alt=""></a>
+              </div>
+              <div class="img_wrap">
+                  <a href="https://www.instagram.com/sonnjeongmin/?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr"><img src="images/인스타.png" alt=""></a>
+              </div>
+              <div class="img_wrap">
+                  <a href="#"><img src="images/카톡.png" alt=""></a>
+              </div>
+          </div>
+        </footer>
+    </div>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</body>
+</html>
